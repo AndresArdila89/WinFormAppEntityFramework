@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace WinFormAppEntityFramework
+namespace WinFormAppEntityFramework.Models
 {
     using System;
     using System.Data.Entity;

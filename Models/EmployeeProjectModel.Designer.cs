@@ -1,4 +1,4 @@
-﻿// T4 code generation is enabled for model 'C:\Users\andre\OneDrive\Desktop\3rd semester\Multi-tire Applications\Labs\Lab4\WinFormAppEntityFramework\EmployeeProjectModel.edmx'. 
+﻿// T4 code generation is enabled for model 'C:\Users\andre\OneDrive\Desktop\3rd semester\Multi-tire Applications\Labs\Lab4\WinFormAppEntityFramework\Models\EmployeeProjectModel.edmx'. 
 // To enable legacy code generation, change the value of the 'Code Generation Strategy' designer
 // property to 'Legacy ObjectContext'. This property is available in the Properties Window when the model
 // is open in the designer.

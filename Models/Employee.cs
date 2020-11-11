@@ -7,21 +7,24 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace WinFormAppEntityFramework
+namespace WinFormAppEntityFramework.Models
 {
     using System;
     using System.Collections.Generic;
     
-    public partial class Project
+    public partial class Employee
     {
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
-        public Project()
+        public Employee()
         {
             this.ProjectAssignments = new HashSet<ProjectAssignment>();
         }
     
-        public string ProjectCode { get; set; }
-        public string ProjectTitle { get; set; }
+        public int EmployeeId { get; set; }
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+        public string PhoneNumber { get; set; }
+        public string Email { get; set; }
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<ProjectAssignment> ProjectAssignments { get; set; }
