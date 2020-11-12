@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using WinFormAppEntityFramework.GUI;
 
 namespace WinFormAppEntityFramework
 {
@@ -17,6 +18,7 @@ namespace WinFormAppEntityFramework
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new FormEmployeeProject());
+            //Application.Run(new test());
         }
     }
 }

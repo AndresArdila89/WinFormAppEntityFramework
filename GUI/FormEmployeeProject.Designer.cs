@@ -282,10 +282,17 @@
             this.buttonSearch.TabIndex = 16;
             this.buttonSearch.Text = "Search";
             this.buttonSearch.UseVisualStyleBackColor = true;
+            this.buttonSearch.Click += new System.EventHandler(this.buttonSearch_Click);
             // 
             // comboBoxSearchBy
             // 
             this.comboBoxSearchBy.FormattingEnabled = true;
+            this.comboBoxSearchBy.Items.AddRange(new object[] {
+            "Employee ID",
+            "First Name",
+            "Last Name",
+            "Email",
+            "Job Title"});
             this.comboBoxSearchBy.Location = new System.Drawing.Point(9, 52);
             this.comboBoxSearchBy.Name = "comboBoxSearchBy";
             this.comboBoxSearchBy.Size = new System.Drawing.Size(121, 21);
